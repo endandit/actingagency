@@ -18,8 +18,18 @@ export default function Hero({ onScrollToServices, onScrollToContact }: HeroProp
           alt=""
           className="w-full h-full object-cover object-center"
         />
-        {/* Gradient overlays for readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/50 to-black/20" />
+        {/* Gradient overlays for readability. Many soft stops rather than a single
+            from/via/to jump - a hard midpoint kink in the darkening curve becomes a
+            visible seam against the curtain's textured fabric, especially at higher
+            pixel densities. Fades fully to transparent by the right edge instead of
+            stopping at a fixed opacity, so it doesn't fight the photo's own vignette. */}
+        <div
+          className="absolute inset-0"
+          style={{
+            background:
+              "linear-gradient(to right, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.6) 20%, rgba(0,0,0,0.45) 38%, rgba(0,0,0,0.3) 55%, rgba(0,0,0,0.15) 72%, rgba(0,0,0,0.05) 88%, rgba(0,0,0,0) 100%)",
+          }}
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
       </div>
 
