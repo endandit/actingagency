@@ -31,7 +31,7 @@ const voorstellingen: Voorstelling[] = [
     leeftijd: "5+",
     beschrijving:
       "In de charmante boekenwinkel van Madeleine komen verhalen tot leven. Bezoekers worden meegenomen in een wereld van verbeelding, humor en ontdekking — een interactieve beleving waarbij elk boek een nieuw avontuur onthult.",
-    posterSrc: "/images/anlies-duo.webp",
+    posterSrc: "/images/madeleine-bookstore.jpg",
   },
 ];
 
@@ -202,7 +202,7 @@ export default function NuInHetTheater({ onScrollToContact }: NuInHetTheaterProp
             </div>
 
             <div className="flex flex-wrap gap-2 mt-6">
-              {["Op locatie", "Basisonderwijs", "Interactief", "Op maat"].map((tag) => (
+              {["Op locatie", "Basisonderwijs", "Op maat"].map((tag) => (
                 <span
                   key={tag}
                   className="px-3 py-1 rounded-full text-xs font-medium border border-white/30 text-white/70"

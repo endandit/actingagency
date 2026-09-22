@@ -14,7 +14,7 @@ const SECTIONS = [
     title: "Voorstellingen op maat",
     body: "Op verzoek maken wij een voorstelling die aansluit bij de doelgroep, het thema, een jaarafsluiting of een andere speciale gebeurtenis — gespeeld bij u op locatie.",
     extra: "Samenwerking met kunstenaars uit verschillende disciplines zorgt voor een rijke theaterbeleving, volledig afgestemd op de vraag van de opdrachtgever.",
-    image: "/images/maakruimte.webp",
+    image: "/images/anlies-01.webp",
     imageAlt: "Theatervoorstelling op maat",
   },
   {

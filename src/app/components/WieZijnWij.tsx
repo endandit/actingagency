@@ -70,21 +70,20 @@ export default function WieZijnWij() {
                   className="text-[#3A1A0A] leading-relaxed mb-4"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Wie ben ik? Dat vraag ik me ook weleens af. Dramadocent,
-                  trainingsacteur, ondernemer — of toch Madeleine Bookstore, het
-                  typetje dat geen blad voor de mond neemt? Ik ben het waarschijnlijk
-                  allemaal. En precies daarom vind ik toneelspelen zo heerlijk: lekker
-                  transformeren in iemand die toch al een beetje in je zit.
+                  Als ex-dramadocent in het speciaal basisonderwijs richtte ik
+                  Annemieke&apos;s Acting Agency op met &eacute;&eacute;n doel: zoveel
+                  mogelijk mensen laten genieten van de energie die theater met zich
+                  meebrengt. Samen met Elise maken wij als An&amp;Lies voorstellingen,
+                  dramalessen en sociale vaardigheidstrainingen op maat &mdash; voor
+                  scholen, buurthuizen, familiefestivals en bedrijven. U vraagt, wij maken.
                 </p>
                 <p
                   className="text-[#3A1A0A] leading-relaxed"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Drie jaar geleden richtte ik AAA op met één doel: zoveel mogelijk
-                  mensen laten genieten van de energie die theater met zich meebrengt.
-                  Samen met Elise maak ik op maat gemaakte voorstellingen, dramalessen
-                  en sociale vaardigheidstrainingen — voor scholen, buurthuizen,
-                  familiefestivals en bedrijven. U vraagt, wij maken.
+                  Acteur in o.a. De Jossen en Folie &agrave; deux, trainingsacteur bij
+                  ABN AMRO, AMC en NRVT. Opgeleid aan Theaterschool De Trap en Hogeschool
+                  Inholland.
                 </p>
                 <a
                   href="https://www.linkedin.com/in/annemieke-buijs-a13b3517/"
@@ -115,8 +114,8 @@ export default function WieZijnWij() {
                 style={{ background: "linear-gradient(135deg, #FFF5A0 0%, #FFD6EC 100%)" }}
               >
                 <img
-                  src="/images/anlies-duo.webp"
-                  alt="Annemieke en Elise als theaterduo"
+                  src="/images/elise-01.webp"
+                  alt="Elise Fernandez"
                   className="w-full h-full object-cover object-center"
                 />
               </div>
@@ -145,11 +144,12 @@ export default function WieZijnWij() {
                   className="text-[#3A1A0A] leading-relaxed mb-4"
                   style={{ fontFamily: "Poppins, sans-serif" }}
                 >
-                  Al vanaf dat ik een klein meisje was hield ik van toneelspelen.
-                  Na een reis door Australië heb ik de knoop doorgehakt en mijn
-                  acteursschool succesvol afgerond. Ik maak en speel interactieve
-                  kindervoorstellingen op locatie, en ben contact-clown voor mensen
-                  met dementie en een beperking.
+                  Als klein meisje hield ik al van toneelspelen en verkleedpartijen &mdash;
+                  en dit is uitgegroeid tot mijn werk en grootste passie! Na een reis
+                  door Austral&iuml;&euml; heb ik de knoop doorgehakt en mijn acteursschool
+                  succesvol afgerond. Ik maak en speel in theatervoorstellingen, geef
+                  theater- en creatieve lessen, en ben contactclown voor mensen met
+                  dementie en een beperking.
                 </p>
                 <p
                   className="text-[#3A1A0A] leading-relaxed"
@@ -177,9 +177,9 @@ export default function WieZijnWij() {
             className="text-white text-xl font-medium leading-relaxed max-w-2xl mx-auto relative z-10"
             style={{ fontFamily: "Poppins, sans-serif", fontStyle: "italic" }}
           >
-            "Aan de basis staan An &amp; Lies — wij gaan samenwerkingen aan met
+            &ldquo;Aan de basis staan An &amp; Lies &mdash; wij gaan samenwerkingen aan met
             spelers uit verschillende disciplines, afhankelijk van wat nodig is
-            voor de les of voorstelling."
+            voor de les of voorstelling.&rdquo;
           </p>
         </div>
       </div>
