@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { toast } from "sonner";
 import QRCode from "react-qr-code";
-import { projectId, publicAnonKey } from "../utils/supabase/info";
 
 const INTERESSES = [
   "Voorstelling op school",
@@ -36,12 +35,11 @@ export default function ContactSection() {
     setSubmitting(true);
     try {
       const res = await fetch(
-        `https://${projectId}.supabase.co/functions/v1/make-server-7ad3da34/contact`,
+        "https://actingagency.nl/contact",
         {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            Authorization: `Bearer ${publicAnonKey}`,
           },
           body: JSON.stringify({ name: name.trim(), email: email.trim(), phone: phone.trim(), interest: interesse, message: bericht.trim() }),
         }
